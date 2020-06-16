@@ -1,0 +1,268 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*================Custom CSS==================*/
+
+header {
+    width: 800px;
+    text-align: center;
+    margin: auto;
+
+}
+
+.container {
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 45px;
+    margin-top: 30px;
+}
+
+hr {
+    width: 280px;
+    border: 1px dotted silver;
+    margin-top: 50px;
+}
+
+.box1 {
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 10px solid #ADD8E6;
+    outline: black solid 2px;
+    box-shadow: 0 0 0 12px #ED7F80, 0 0 0 12px #ED7F80;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #DAFAD4;
+}
+
+h3 {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.indications {
+    margin-top: 50px;
+    font-size: 12px;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+}
+
+.con {
+    background-color: #DAFAD4;
+}
+
+.pad {
+    background-color: #ADD8E6;
+    margin-left: 20px;
+}
+
+.bor {
+    background-color: black;
+    margin-left: 20px;
+}
+
+.mar {
+    background-color: #ED7F80;
+    margin-left: 20px;
+}
+
+p {
+    display: inline-block;
+}
+
+.content {
+    display: inline-block;
+}
+
+.padding {
+    display: inline-block;
+}
+
+.border {
+    display: inline-block;
+}
+
+.margin {
+    display: inline-block;
+}
+
+h4 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.noborder {
+    width: 180px;
+    height: 100px;
+    margin: 8.5px;
+    background-color: silver;
+    display: inline-block;
+}
+
+.box_container {
+    width: 600px;
+    text-align: center;
+    border: 1px solid gray;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.box_border {
+    width: 180px;
+    height: 100px;
+    margin: 10px;
+    background-color: silver;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.border_px {
+    width: 180px;
+    height: 100px;
+    margin: 7.5px;
+    background-color: silver;
+    display: inline-block;
+    border: 1px solid black;
+}
