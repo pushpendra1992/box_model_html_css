@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Assignment 04</title>
+</head>
+
+<body>
+    <main>
+        <!--====== first box =======-->
+        <section class="container">
+            <div class="box1"></div>
+            <div>
+                <h2>Actual Box Size : 360 px * 260 px</h2>
+                <p>Actual Box Width : box width + padding + border <br>
+                    Actual Box Width : 300 + (20+20) + (10+10)<br>
+                    Actual Box Width : 360 px <br><br>
+                    Actual Box Width With Margin : 360 + Margin (20 + 20) <br>
+                    Actual Box Width With Margin : 360 + 40 = 400 px <br> <br>
+                    Actual Box Height : box height + padding + border <br>
+                    Actual Box Height : 200 + (20+20) + (10+10)<br>
+                    Actual Box Height : 260 px <br><br>
+                    Actual Box Height With Margin : 260 + Margin (20 + 20) <br>
+                    Actual Box Height With Margin : 260 + 40 = 300 px <br> <br>
+                    Actual Box Size With Margin = 400 px * 300 px
+
+                </p>
+            </div>
+        </section>
+        <!--====== second box =======-->
+        <section>
+            <div class="box2 box1"></div>
+            <div>
+                <h2>Actual Box Size : 300 px * 200 px</h2>
+                <p>There is no increment in box-size due to <b>box-sizing property with value border-box</b>
+                    <br><br>
+                    Actual Box Width With Margin : 300 + Margin (20 + 20) <br>
+                    Actual Box Width With Margin : 300 + 40 = 340 px <br> <br>
+                    Actual Box Height With Margin : 200 + Margin (20 + 20) <br>
+                    Actual Box Height With Margin : 200 + 40 = 240 px <br> <br>
+                    Actual Box Size With Margin = 340 px * 240 px
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
